@@ -2,9 +2,9 @@
   "products": [
     {
       "id": "11",
-      "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+      "title": "Silicon Power 256GB SSD 3D",
       "price": 109,
-      "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+      "description": "3D flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
       "category": "accessories",
       "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
       "rating": {
@@ -26,7 +26,7 @@
     },
     {
       "id": "14",
-      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
+      "title": "Samsung 49-Inch CHG90 144Hz",
       "price": 999.99,
       "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
       "category": "computers",
@@ -38,141 +38,119 @@
     },
     {
       "id": "16",
-      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      "title": "Nokia c1",
       "price": 29.95,
-      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+      "description": "the most smart mobile in the world",
       "category": "smart phone",
-      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "image": "https://i.pinimg.com/564x/6b/1c/58/6b1c5817e10b620b2380a9ecccb86ab0.jpg",
       "rating": {
         "rate": 2.9,
         "count": 340
       }
     },
     {
-      "id": "17",
-      "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
-      "price": 39.99,
-      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
-      "category": "tablets",
-      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
-      "rating": {
-        "rate": 3.8,
-        "count": 679
-      }
+      "title": "dell optiplex 7090",
+      "description": "the most smart pc in the world amazing!",
+      "image": "https://i.pinimg.com/564x/c4/ae/10/c4ae10668280aac0c4d1d54a5f30b897.jpg",
+      "price": 0,
+      "category": "computers",
+      "id": "17"
     },
     {
-      "id": "18",
-      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
-      "price": 9.85,
-      "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+      "title": "hp laptop",
+      "description": "the most smart laptop in the world!!",
+      "image": "https://i.pinimg.com/564x/c6/ed/54/c6ed54d9096136626ca29af9cfdb77d1.jpg",
+      "price": 0,
       "category": "laptops",
-      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
-      "rating": {
-        "rate": 4.7,
-        "count": 130
-      }
+      "id": "18"
     },
     {
-      "id": "919",
-      "title": "Opna Women's Short Sleeve Moisture",
-      "price": 7.95,
-      "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+      "title": "asus zenbook",
+      "description": "the most powerful laptop in the world",
+      "image": "https://i.pinimg.com/564x/07/de/54/07de54d404d4f819e34182291c28557c.jpg",
+      "price": 0,
       "category": "laptops",
-      "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
-      "rating": {
-        "rate": 4.5,
-        "count": 146
-      }
+      "id": "919"
     },
     {
       "title": "playstation 4",
-      "category": "smart phone",
-      "description": "4480",
+      "description": "best for entertenment and fun with friends",
+      "image": "https://i.pinimg.com/564x/f1/be/4f/f1be4f3b94b6f5750f168af7a143bbdb.jpg",
+      "price": "4450",
+      "category": "accessories",
       "id": "450f"
     },
     {
-      "id": "5955",
       "title": "i phone 15",
+      "description": "the most smart pc in the world amazing!!",
+      "image": "https://i.pinimg.com/564x/f6/c5/07/f6c5073517e0d17f96691ea35a5631d9.jpg",
+      "price": "8000",
       "category": "smart phone",
-      "description": "the most smart mobile in the world"
+      "id": "5955"
     },
     {
-      "id": "6d0d",
       "title": "samsung",
+      "description": "the most poor mobile in the world amazing!!!",
+      "image": "https://i.pinimg.com/564x/df/a4/46/dfa446dc4a4b67225d47a201cc32cb42.jpg",
+      "price": "50201",
       "category": "smart phone",
-      "description": "the most smart mobile in the world too"
+      "id": "6d0d"
     },
     {
-      "id": "8fa1",
       "title": "i phone 16",
       "description": "the most smart mobile in the world amazing!!!!",
-      "price": "42452",
-      "image": "https://cdn.thewirecutter.com/wp-content/media/2023/11/androidtablets-2048px-05931-2x1-1.jpg?width=1024&quality=75&crop=2:1&auto=webp",
-      "category": "tablets"
+      "image": "https://i.pinimg.com/564x/da/dd/8e/dadd8ef6b458db5112ec85f8475e6856.jpg",
+      "price": "899",
+      "category": "smart phone",
+      "id": "8fa1"
     },
     {
-      "id": "d8a0",
-      "title": "core 19",
-      "description": "the most smart mobile in the world amazing!!!! pc computer",
-      "price": "78978",
-      "image": "https://cdn.thewirecutter.com/wp-content/media/2023/11/androidtablets-2048px-05931-2x1-1.jpg?width=1024&quality=75&crop=2:1&auto=webp",
-      "category": "tablets"
+      "title": "galaxy tab s8+",
+      "description": "the most smart tablet in the world amazing!!!!",
+      "image": "https://i.pinimg.com/564x/d1/7f/0d/d17f0d0eae0b5f850ed21aa8bc00e8f4.jpg",
+      "price": "7879",
+      "category": "tablets",
+      "id": "d8a0"
     },
     {
       "id": "3be7",
       "title": "i pad",
       "description": "the most tablet in the world!!!!",
+      "image": "https://i.pinimg.com/564x/e8/a4/2e/e8a42e07b50f84182a52b75f57ed8793.jpg",
       "price": "203040",
-      "image": "https://cdn.mos.cms.futurecdn.net/3Y5PQVLsQTK6K5n2Q3mdWS-650-80.jpg",
       "category": "tablets"
     },
     {
-      "id": "9911",
-      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-      "price": 109.95,
-      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "title": "lenovo",
+      "description": "the most smart pc in the world amazing!!!!",
+      "image": "https://i.pinimg.com/564x/b1/bc/c6/b1bcc6f2f553f0615f3fdef75193a3f5.jpg",
+      "price": "1094",
+      "category": "computers",
+      "id": "9911"
+    },
+    {
+      "title": "macBook",
+      "description": "the most smart laptop in the world amazing!!!!",
+      "image": "https://i.pinimg.com/564x/06/0d/65/060d658303550c903bd36baac2f882cf.jpg",
+      "price": "94456",
       "category": "laptops",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-      "rating": {
-        "rate": 3.9,
-        "count": 120
-      }
+      "id": "1911"
     },
     {
-      "id": "1911",
-      "title": "Mens Casual Premium Slim Fit T-Shirts ",
-      "price": 22.3,
-      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-      "category": "computers",
-      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
-      "rating": {
-        "rate": 4.1,
-        "count": 259
-      }
+      "title": "samsung s22 ultra",
+      "description": "the most smart tablet in the world amazing!!!! good",
+      "image": "https://i.pinimg.com/564x/c0/da/69/c0da696843b6bca499bcfccf15870135.jpg",
+      "price": "55223",
+      "category": "smart phone",
+      "id": "1811"
     },
     {
-      "id": "1811",
-      "title": "Mens Cotton Jacket",
-      "price": 55.99,
-      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-      "category": "computers",
-      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
-      "rating": {
-        "rate": 4.7,
-        "count": 500
-      }
-    },
-    {
-      "id": "1711",
-      "title": "Mens Casual Slim Fit",
-      "price": 15.99,
-      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-      "category": "computers",
-      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
-      "rating": {
-        "rate": 2.1,
-        "count": 430
-      }
+      "title": "realme",
+      "description": "the most smart mobile in the world amazing!!!!",
+      "image": "https://i.pinimg.com/564x/94/95/45/949545b8bc0b15e94fd474d62616e105.jpg",
+      "price": "4999",
+      "category": "smart phone",
+      "id": "1711"
     },
     {
       "id": "1311",
