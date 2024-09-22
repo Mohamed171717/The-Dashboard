@@ -41,6 +41,7 @@ export default function Content() {
         <Routes>
           <Route>
             <Route path="/" element={<Dashboard />} />
+            <Route path="The-Dashboard/" element={<Dashboard />} />
             <Route path="dashboard" element={<Dashboard />} />
             <Route path="courses" element={<Courses />} />
             <Route path="files" element={<Files />} />
