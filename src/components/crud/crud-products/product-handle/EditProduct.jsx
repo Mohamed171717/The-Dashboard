@@ -53,7 +53,7 @@ export default function EditProduct() {
     <h3 className="fs-5 fw-bold mb-25">Edit Product</h3>
     { product && 
       <>
-      <form onSubmit={ formSubmit }>
+      <form onSubmit={ formSubmit } id='editProduct'>
         <div className="mb-3">
           <input
             type="text"

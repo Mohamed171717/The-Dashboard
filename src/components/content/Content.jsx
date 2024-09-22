@@ -29,7 +29,7 @@ export default function Content() {
         {/* start head */}
         <div className="head p-15 bg-white between-flex">
           <div className="search p-relative">
-            <input className="p-10" type="search" placeholder="Search" />
+            <input id="search" className="p-10" type="search" placeholder="Search" />
           </div>
           <div className="icons d-flex align-center">
             <span className="notification p-relative">

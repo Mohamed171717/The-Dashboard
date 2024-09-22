@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-alt-green pb-20 d-flex align-center">
+      <footer className="bg-alt-green padding-20 d-flex align-center">
         <div className="logo c-white fw-bold mt-20 p-10">Fouad</div>
         <div className="icon mt-20 p-10">
           <ul>

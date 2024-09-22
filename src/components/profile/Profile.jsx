@@ -32,15 +32,15 @@ export default function Profile() {
               <h3 className="fw-900 m-0 fs-15 w-full">General Information</h3>
               <div className="fs-13">
                 <span>Full Name:</span>
-                <span className="c-grey">Mohamed Fouad</span>
+                <span className="c-grey"> Mohamed Fouad</span>
               </div>
               <div className="fs-13">
                 <span>Gender:</span>
-                <span className="c-grey">Male</span>
+                <span className="c-grey"> Male</span>
               </div>
               <div className="fs-13">
                 <span>Country:</span>
-                <span className="c-grey">Egypt</span>
+                <span className="c-grey"> Egypt</span>
               </div>
               <div className="fs-13">
                 {/* <label>
@@ -53,15 +53,15 @@ export default function Profile() {
               <h3 className="fw-900 m-0 fs-15 w-full">Personal Information</h3>
               <div className="fs-13">
                 <span>Email:</span>
-                <span className="c-grey">Mohamed@.com</span>
+                <span className="c-grey"> Mohamed@.com</span>
               </div>
               <div className="fs-13">
                 <span>Phone:</span>
-                <span className="c-grey">0244678543</span>
+                <span className="c-grey"> 0244678543</span>
               </div>
               <div className="fs-13">
                 <span>Date Of Birth:</span>
-                <span className="c-grey">23/5/1998</span>
+                <span className="c-grey"> 23/5/1998</span>
               </div>
               <div className="fs-13">
                 {/* <label>
@@ -74,15 +74,15 @@ export default function Profile() {
               <h3 className="fw-900 m-0 fs-15 w-full">Job Information</h3>
               <div className="fs-13">
                 <span>Title:</span>
-                <span className="c-grey">Full Stack Development</span>
+                <span className="c-grey"> Full Stack Dev</span>
               </div>
               <div className="fs-13">
-                <span>Programming Language:</span>
-                <span className="c-grey">Python</span>
+                <span>Programming Lang:</span>
+                <span className="c-grey"> Python</span>
               </div>
               <div className="fs-14">
                 <span>Years Of Experience:</span>
-                <span className="c-grey">4+</span>
+                <span className="c-grey"> 4+</span>
               </div>
               <div className="fs-13">
                 {/* <label>
@@ -95,15 +95,15 @@ export default function Profile() {
               <h3 className="fw-900 m-0 fs-15 w-full">Billing Information</h3>
               <div className="fs-13">
                 <span>Payment Method:</span>
-                <span className="c-grey">Paypal</span>
+                <span className="c-grey"> Paypal</span>
               </div>
               <div className="fs-13">
-                <span>Email</span>
-                <span className="c-grey">Person.@email.com:</span>
+                <span>Email:</span>
+                <span className="c-grey"> Person.@email.com</span>
               </div>
               <div className="fs-13">
                 <span>Subscription:</span>
-                <span className="c-grey">Monthly</span>
+                <span className="c-grey"> Monthly</span>
               </div>
               <div className="fs-13">
                 {/* <label>

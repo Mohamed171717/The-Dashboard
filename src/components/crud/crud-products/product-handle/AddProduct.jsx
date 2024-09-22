@@ -51,7 +51,7 @@ export default function AddProduct() {
   return (
     <>
       <h3 className="fs-5 fw-bold mb-25">New Product</h3>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} id="addProduct">
         <div className="mb-3">
           <input
             type="text"
