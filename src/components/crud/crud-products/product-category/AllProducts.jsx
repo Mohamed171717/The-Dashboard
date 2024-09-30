@@ -53,7 +53,7 @@ export default function AllProducts() {
                   <img className="w-100" src={`http://localhost:9000/images/${product.imageFilename}`} alt=""/>
                 </div>
                 <h4>{product.title}</h4>
-                <p className="c-grey fs-13">{product.description.slice(0, 50)}...</p>
+                <p className="c-grey fs-13">{ product.description.length > 200? product.description.slice(0,70) : product.description }</p>
               </div>
               <div className="info d-flex fs-13">
                 <div className="links around-flex">

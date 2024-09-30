@@ -69,6 +69,7 @@ export default function EditProduct() {
             type="text"
             className="form-control"
             name="title"
+            id="title"
             defaultValue={products.title}
           />
           <span className='text-danger'>{validationErrors.title}</span>
@@ -78,6 +79,7 @@ export default function EditProduct() {
             type="text"
             className="form-control"
             name="description"
+            id="description"
             defaultValue={products.description}
           />
           <span className='text-danger'>{validationErrors.description}</span>
@@ -87,6 +89,7 @@ export default function EditProduct() {
             type="number"
             className="form-control"
             name="price"
+            id="price"
             step="0.01"
             min="1"
             defaultValue={products.price}
@@ -94,7 +97,7 @@ export default function EditProduct() {
           <span className='text-danger'>{validationErrors.price}</span>
         </div>
         <div className="mb-3">
-          <select className="form-select" name="category" defaultValue={products.category}>
+          <select className="form-select" id="category" name="category" defaultValue={products.category}>
             <option value="Miscellaneous">Miscellaneous</option>
             <option value="Clothes">Clothes</option>
             <option value="Electronics">Electronics</option>
@@ -108,6 +111,7 @@ export default function EditProduct() {
             type="file"
             className="form-control"
             name="imageFilename"
+            id="imageFilename"
           />
           <span className='text-danger'>{validationErrors.imageFilename}</span>
         </div>

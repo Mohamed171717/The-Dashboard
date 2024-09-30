@@ -53,6 +53,7 @@ export default function AddProduct() {
             type="text"
             className="form-control"
             name="title"
+            id="title"
             placeholder="Product Title"
           />
           <span className="text-danger">{validationErrors.title}</span>
@@ -62,6 +63,7 @@ export default function AddProduct() {
             type="text"
             className="form-control"
             name="description"
+            id="description"
             placeholder="Product Description"
           />
           <span className="text-danger">{validationErrors.description}</span>
@@ -71,6 +73,7 @@ export default function AddProduct() {
             type="number"
             className="form-control"
             name="price"
+            id="price"
             step="0.01"
             min="1"
             placeholder="Product Price"
@@ -78,7 +81,7 @@ export default function AddProduct() {
           <span className="text-danger">{validationErrors.price}</span>
         </div>
         <div className="mb-3">
-          <select className="form-select" name="category">
+          <select className="form-select" name="category" id="category">
             <option value="Miscellaneous">Miscellaneous</option>
             <option value="Clothes">Clothes</option>
             <option value="Electronics">Electronics</option>
@@ -92,6 +95,7 @@ export default function AddProduct() {
             className="form-control"
             type="file"
             name="image"
+            id="image"
           />
           <span className="text-danger">{validationErrors.image}</span>
         </div>
