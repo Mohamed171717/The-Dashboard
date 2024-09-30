@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/The-Dashboard/static/css/main.070e9335.css",
-    "main.js": "/The-Dashboard/static/js/main.671569d8.js",
+    "main.js": "/The-Dashboard/static/js/main.dd50d5bb.js",
     "static/js/453.5565870f.chunk.js": "/The-Dashboard/static/js/453.5565870f.chunk.js",
     "static/media/landing.gif": "/The-Dashboard/static/media/landing.558aecfd61e6b40b4453.gif",
     "static/media/cover.gif": "/The-Dashboard/static/media/cover.ebd33bfe17a61726e0cf.gif",
@@ -109,14 +109,14 @@
     "static/media/ai (1).svg": "/The-Dashboard/static/media/ai (1).f12b3b7d484ef8c1159679c462b1e056.svg",
     "static/media/folder (3).svg": "/The-Dashboard/static/media/folder (3).f26324231da23e60297b0c34fe1f8ca4.svg",
     "static/media/outbox.svg": "/The-Dashboard/static/media/outbox.6115a3e6ad055d31772e275e952d72bd.svg",
-    "index.html": "/The-Dashboard/index.html",
     "static/media/folder (2).svg": "/The-Dashboard/static/media/folder (2).b0c0ca9b37d13d1ce093a9891f8ed292.svg",
+    "index.html": "/The-Dashboard/index.html",
     "main.070e9335.css.map": "/The-Dashboard/static/css/main.070e9335.css.map",
-    "main.671569d8.js.map": "/The-Dashboard/static/js/main.671569d8.js.map",
+    "main.dd50d5bb.js.map": "/The-Dashboard/static/js/main.dd50d5bb.js.map",
     "453.5565870f.chunk.js.map": "/The-Dashboard/static/js/453.5565870f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.070e9335.css",
-    "static/js/main.671569d8.js"
+    "static/js/main.dd50d5bb.js"
   ]
 }
