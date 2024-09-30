@@ -3,11 +3,11 @@ import React from "react";
 export default function Plans() {
   return (
     <>
-      <h2 className="p-relative">Plans</h2>
+      {/* <h3 className="p-relative">Plans</h3> */}
       <div className="plans-page d-grid m-20 gap-20">
         <div className="plan border-ccc blue rad-6 bg-white p-20">
           <div className="top txt-c p-20 bg-blue">
-            <h2 className="m-0 c-white">Free</h2>
+            <h3 className="m-0 c-white">Free</h3>
             <div className="price c-white">
               <span>$</span>0.00
             </div>
@@ -58,7 +58,7 @@ export default function Plans() {
         </div>
         <div className="plan green border-ccc rad-6 bg-white p-20">
           <div className="top txt-c p-20 bg-green">
-            <h2 className="m-0 c-white">Pro</h2>
+            <h3 className="m-0 c-white">Pro</h3>
             <div className="price c-white">
               <span>$</span>100.00
             </div>
@@ -109,7 +109,7 @@ export default function Plans() {
         </div>
         <div className="plan orange border-ccc rad-6 bg-white p-20">
           <div className="top txt-c p-20 bg-orange">
-            <h2 className="m-0 c-white">Ult</h2>
+            <h3 className="m-0 c-white">Ult</h3>
             <div className="price c-white">
               <span>$</span>500.00
             </div>

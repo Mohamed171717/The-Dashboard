@@ -18,10 +18,9 @@ import psCom from '../../images/svg/ps-com.svg';
 export default function Files() {
   return (
     <>
-      <h2 className="p-relative">Files</h2>
       <div className="files-page d-flex m-20 gap-20">
         <div className="files-stats rad-10 bg-white p-20">
-          <h2 className="mt-0 mb-15 txt-c-mobile">Files Statistics</h2>
+          <h4 className="mt-0 mb-15 txt-c-mobile">Files Statistics</h4>
           <div className="d-flex align-center p-10 mb-15 rad-6 border-ccc fs-13">
             <i className="fa-regular fa-file-pdf fa-lg icon c-red center-flex"></i>
             <div className="info">

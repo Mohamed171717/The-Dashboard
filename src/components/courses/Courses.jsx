@@ -23,13 +23,13 @@ import course9 from '../../images/course9.jpg';
 export default function Courses() {
   return (
     <>
-    <h2 className='p-relative'>Courses</h2>
+    {/* <h2 className='p-relative'>Courses</h2> */}
     <div className="courses-page d-grid m-20 gap-20">
                 <div className="course bg-white p-relative rad-6">
                     <img className="cover" src={back1} alt=""/>
                     <img className="instructor" src={course1} alt=""/>
                     <div className="p-20">
-                        <h4 className="m-0">Mastering Web Design</h4>
+                        <h5 className="m-0">Mastering Web Design</h5>
                         <p className="description c-grey fs-13 mt-15">Master The Art Of Design & Mocking, Prototype And Web Design</p>
                     </div>
                     <div className="info p-15 p-relative between-flex">
@@ -42,7 +42,7 @@ export default function Courses() {
                     <img className="cover" src={back2} alt=""/>
                     <img className="instructor" src={course5} alt=""/>
                     <div className="p-20">
-                        <h4 className="m-0">Data Structure & Algorithms</h4>
+                        <h5 className="m-0">Data Structure & Algorithms</h5>
                         <p className="description c-grey fs-13 mt-15">Master The Art Of Design & Mocking, Prototype And Web Design</p>
                     </div>
                     <div className="info p-15 p-relative between-flex">
@@ -55,7 +55,7 @@ export default function Courses() {
                     <img className="cover" src={back3} alt=""/>
                     <img className="instructor" src={course3} alt=""/>
                     <div className="p-20">
-                        <h4 className="m-0">Responsive Web Design</h4>
+                        <h5 className="m-0">Responsive Web Design</h5>
                         <p className="description c-grey fs-13 mt-15">Master The Art Of Design & Mocking, Prototype And Web Design</p>
                     </div>
                     <div className="info p-15 p-relative between-flex">
@@ -68,7 +68,7 @@ export default function Courses() {
                     <img className="cover" src={back4} alt=""/>
                     <img className="instructor" src={course4} alt=""/>
                     <div className="p-20">
-                        <h4 className="m-0">Mastering Python</h4>
+                        <h5 className="m-0">Mastering Python</h5>
                         <p className="description c-grey fs-13 mt-15">Master The Art Of Design & Mocking, Prototype And Web Design</p>
                     </div>
                     <div className="info p-15 p-relative between-flex">
@@ -81,7 +81,7 @@ export default function Courses() {
                     <img className="cover" src={back5} alt=""/>
                     <img className="instructor" src={course2} alt=""/>
                     <div className="p-20">
-                        <h4 className="m-0">PHP Examples</h4>
+                        <h5 className="m-0">PHP Examples</h5>
                         <p className="description c-grey fs-13 mt-15">Master The Art Of Design & Mocking, Prototype And Web Design</p>
                     </div>
                     <div className="info p-15 p-relative between-flex">
@@ -94,7 +94,7 @@ export default function Courses() {
                     <img className="cover" src={back6} alt=""/>
                     <img className="instructor" src={course6} alt=""/>
                     <div className="p-20">
-                        <h4 className="m-0">Learn SASS</h4>
+                        <h5 className="m-0">Learn SASS</h5>
                         <p className="description c-grey fs-13 mt-15">Master The Art Of Design & Mocking, Prototype And Web Design</p>
                     </div>
                     <div className="info p-15 p-relative between-flex">
@@ -107,7 +107,7 @@ export default function Courses() {
                     <img className="cover" src={back7} alt=""/>
                     <img className="instructor" src={course7} alt=""/>
                     <div className="p-20">
-                        <h4 className="m-0">Introduction In Javascript</h4>
+                        <h5 className="m-0">Introduction In Javascript</h5>
                         <p className="description c-grey fs-13 mt-15">Master The Art Of Design & Mocking, Prototype And Web Design</p>
                     </div>
                     <div className="info p-15 p-relative between-flex">
@@ -120,7 +120,7 @@ export default function Courses() {
                     <img className="cover" src={back8} alt=""/>
                     <img className="instructor" src={course8} alt=""/>
                     <div className="p-20">
-                        <h4 className="m-0">Be Perfect In Bootstrap</h4>
+                        <h5 className="m-0">Be Perfect In Bootstrap</h5>
                         <p className="description c-grey fs-13 mt-15">Master The Art Of Design & Mocking, Prototype And Web Design</p>
                     </div>
                     <div className="info p-15 p-relative between-flex">
@@ -133,7 +133,7 @@ export default function Courses() {
                     <img className="cover" src={back9} alt=""/>
                     <img className="instructor" src={course9} alt=""/>
                     <div className="p-20">
-                        <h4 className="m-0">Learn Database In One Week</h4>
+                        <h5 className="m-0">Learn Database In One Week</h5>
                         <p className="description c-grey fs-13 mt-15">Master The Art Of Design & Mocking, Prototype And Web Design</p>
                     </div>
                     <div className="info p-15 p-relative between-flex">

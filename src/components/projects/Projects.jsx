@@ -9,11 +9,10 @@ import team6 from "../../images/team6.jpg";
 export default function Projects() {
   return (
     <>
-      <h2 className="p-relative">Projects</h2>
       <div className="projects-page d-grid gap-20 m-20">
         <div className="project bg-white p-20 rad-6 p-relative">
           <span className="date fs-13 c-grey">20/3/2022</span>
-          <h4 className="mt-10 fw-normal">Fouad Shop</h4>
+          <h5 className="mt-10 fw-normal">Fouad Shop</h5>
           <p className="c-grey fs-14 mt-10 mb-10">
             Fouad Dashboard Project For Designing & Programming & Hosting
           </p>
@@ -52,7 +51,7 @@ export default function Projects() {
         </div>
         <div className="project bg-white p-20 rad-6 p-relative">
           <span className="date fs-13 c-grey">28/5/2022</span>
-          <h4 className="mt-10 fw-normal">Academy Portal</h4>
+          <h5 className="mt-10 fw-normal">Academy Portal</h5>
           <p className="c-grey fs-14 mt-10 mb-10">Academy Portal Designing</p>
           <div className="team">
             <a href="t">
@@ -80,7 +79,7 @@ export default function Projects() {
         </div>
         <div className="project bg-white p-20 rad-6 p-relative">
           <span className="date fs-13 c-grey">10/9/2022</span>
-          <h4 className="mt-10 fw-normal">Chatting Application</h4>
+          <h5 className="mt-10 fw-normal">Chatting Application</h5>
           <p className="c-grey fs-14 mt-10 mb-10">
             Chatting Application Project Design
           </p>
@@ -115,7 +114,7 @@ export default function Projects() {
         </div>
         <div className="project bg-white p-20 rad-6 p-relative">
           <span className="date fs-13 c-grey">15/7/2022</span>
-          <h4 className="mt-10 fw-normal">Mark Application</h4>
+          <h5 className="mt-10 fw-normal">Mark Application</h5>
           <p className="c-grey fs-14 mt-10 mb-10">
             Mark Application Project Design
           </p>
@@ -153,7 +152,7 @@ export default function Projects() {
         </div>
         <div className="project bg-white p-20 rad-6 p-relative">
           <span className="date fs-13 c-grey">2/10/2022</span>
-          <h4 className="mt-10 fw-normal">Ahmed Dashboard</h4>
+          <h5 className="mt-10 fw-normal">Ahmed Dashboard</h5>
           <p className="c-grey fs-14 mt-10 mb-10">
             Ahmed Dashboard Project Programming
           </p>
@@ -183,7 +182,7 @@ export default function Projects() {
         </div>
         <div className="project bg-white p-20 rad-6 p-relative">
           <span className="date fs-13 c-grey">06/3/2022</span>
-          <h4 className="mt-10 fw-normal">Mohamed Portal</h4>
+          <h5 className="mt-10 fw-normal">Mohamed Portal</h5>
           <p className="c-grey fs-14 mt-10 mb-10">
             Mohamed Portal Project For Designing & Programming
           </p>

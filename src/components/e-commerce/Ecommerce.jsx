@@ -1,14 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './navbar/Navbar';
+import { Outlet } from 'react-router-dom';
+import ShopContextProvider from './context/ShopContext';
 
 export default function Ecommerce() {
   return (
     <>
-    <h2 className="p-relative">E-commerce</h2>
-    <div className="commerce-page d-flex m-20 gap-20">
-      <div className="commerce-stats rad-10 bg-white p-20">
-        
-      </div>
-    </div>
+    <ShopContextProvider>
+      <Navbar/>
+      <Outlet/>
+    </ShopContextProvider>
     </>
   )
 }

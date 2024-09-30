@@ -25,11 +25,11 @@ export default function CRUD() {
 
   return (
     <>
-      <h2 className="p-relative">CRUD Project</h2>
+      {/* <h2 className="p-relative">CRUD Project</h2> */}
       <div className="cruds-page p-20 m-20 rad-10 bg-white">
         <div className="row">
           <div className="col-12 bg-f0 rad-6 p-15 mb-15">
-            <ul className="center-flex gap-10">
+            <ul className="center-flex">
               <li>
                 <Link
                   className="fs-6 fw-bolder c-black" id="all-products" to="all-products">
@@ -37,28 +37,28 @@ export default function CRUD() {
                 </Link>
               </li>
               <li>
-                <Link className="fs-6 fw-bolder c-black" to="computers" id="computers">
-                  Computers
+                <Link className="fs-6 fw-bolder c-black" to="clothes" id="clothes">
+                  Clothes
                 </Link>
               </li>
               <li>
-                <Link className="fs-6 fw-bolder c-black" to="laptops" id="laptops">
-                  Laptops
+                <Link className="fs-6 fw-bolder c-black" to="electronics" id="electronics">
+                  Electronics
                 </Link>
               </li>
               <li>
-                <Link className="fs-6 fw-bolder c-black" to="tablets" id="tablets">
-                  Tablets
+                <Link className="fs-6 fw-bolder c-black" to="furniture" id="furniture">
+                  Furniture
                 </Link>
               </li>
               <li>
-                <Link className="fs-6 fw-bolder c-black" to="smart-phone" id="smart-phone">
-                  Smart Phone
+                <Link className="fs-6 fw-bolder c-black" to="shoes" id="shoes">
+                  Shoes
                 </Link>
               </li>
               <li>
-                <Link className="fs-6 fw-bolder c-black" to="accessories" id="accessories">
-                  Accessories
+                <Link className="fs-6 fw-bolder c-black" to="miscellaneous" id="miscellaneous">
+                  Miscellaneous
                 </Link>
               </li>
             </ul>

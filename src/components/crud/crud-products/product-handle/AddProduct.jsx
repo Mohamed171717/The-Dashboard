@@ -1,50 +1,46 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function AddProduct() {
-  const [title, setTitle] = useState("");
-  const [description, setDescription] = useState("");
-  const [price, setPrice] = useState("");
-  // const [image, setImage] = useState("");
-  const [category, setCategory] = useState("");
-  const [matchResult, setMatchResult] = useState(null);
+  
   let navigate = useNavigate();
+  const [validationErrors, setValidationErrors] = useState({});
 
-  useEffect(() => {
-    getRegex(category);
-  },[category]);
+  
 
-  let getRegex =(prop) => {
-    const regex = /(?:computers)|(?:tablets)|(?:laptops)|(?:smart phone)|(?:accessories)/gm; // Example: Matches alphanumeric strings
-    const result = regex.test(prop);
-    setMatchResult(result);
-  }
+  async function handleSubmit(e) {
+    e.preventDefault()
+    
+    const formData = new FormData(e.target)
+    const product = Object.fromEntries(formData.entries())
 
-  let getUrl = () => {
-    axios({
-      method: "post",
-      url: "http://localhost:9000/products",
-      data: {
-        title,
-        description,
-        price,
-        category
-      },
-    })
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (matchResult === true) {
-      getUrl();
-      navigate("/crud")
-    } else {
-      document.querySelector("#productTitle").classList.add("is-valid");
-      document.querySelector("#productDesc").classList.add("is-valid");
-      document.querySelector("#productPrice").classList.add("is-valid");
-      document.querySelector("#productCategory").classList.add("is-invalid");
+    if( !product.title || !product.description || !product.category 
+      || !product.price || !product.image.name) {
+        alert("please full all the fields")
+        return
+      }
+    
+    try { 
+      const response = await fetch("http://localhost:9000/products", {
+        method: "POST",
+        body: formData
+      })
+      const data = await response.json()
+      if( response.ok) {
+        // product create successfully
+        navigate("/crud")
+      }
+      else if( response.status === 400) {
+        setValidationErrors(data)  
+      }
+      else {
+        alert("unable to create the product")
+      }
     }
+    catch(error) {
+      alert("unable to connect the server")
+    }
+
 
   };
 
@@ -56,54 +52,52 @@ export default function AddProduct() {
           <input
             type="text"
             className="form-control"
-            id="productTitle"
+            name="title"
             placeholder="Product Title"
-            onChange={(e) => setTitle(e.target.value)}
-            required
           />
+          <span className="text-danger">{validationErrors.title}</span>
         </div>
         <div className="mb-3">
           <input
             type="text"
             className="form-control"
-            id="productDesc"
+            name="description"
             placeholder="Product Description"
-            onChange={(e) => setDescription(e.target.value)}
-            required
           />
+          <span className="text-danger">{validationErrors.description}</span>
         </div>
         <div className="mb-3">
           <input
             type="number"
             className="form-control"
-            id="productPrice"
+            name="price"
+            step="0.01"
+            min="1"
             placeholder="Product Price"
-            onChange={(e) => setPrice(e.target.value)}
-            required
           />
+          <span className="text-danger">{validationErrors.price}</span>
+        </div>
+        <div className="mb-3">
+          <select className="form-select" name="category">
+            <option value="Miscellaneous">Miscellaneous</option>
+            <option value="Clothes">Clothes</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Furniture">Furniture</option>
+            <option value="Shoes">Shoes</option>
+          </select>
+          <span className="text-danger">{validationErrors.category}</span>
         </div>
         <div className="mb-3">
           <input
-            type="text"
-            className="form-control"
-            id="productCategory"
-            placeholder="Product Category Must ('computers, laptops, tablets, smart phone, accessories')"
-            onChange={(e) => setCategory(e.target.value)}
-            required
-          />
-        </div>
-        {/* <div className="mb-3">
-          <input
             className="form-control"
             type="file"
-            id="formImage"
-            onChange={ (e) => setImage(URL.createObjectURL(e.target.files[0]))}
-            required
+            name="image"
           />
-        </div> */}
+          <span className="text-danger">{validationErrors.image}</span>
+        </div>
         <div className="add-product col-auto">
           <button type="submit" className="btn btn-primary mb-3 fs-14 fw-bold">
-            Add Product
+            Submit
           </button>
         </div>
       </form>

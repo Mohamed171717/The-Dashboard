@@ -35,9 +35,9 @@ export default function Sidebar() {
           <Link className="d-flex align-center fs-14 c-black rad-6 p-10" to="crud" id="crud">
             <i className="fa-solid fa-lightbulb"></i><span>CRUD Project</span>
           </Link>
-          {/* <Link className="d-flex align-center fs-14 c-black rad-6 p-10" to="e-commerce" id="e-commerce">
+          <Link className="d-flex align-center fs-14 c-black rad-6 p-10" to="e-commerce" id="e-commerce">
             <i className="fa-solid fa-cart-shopping"></i><span>E-Commerce</span>
-          </Link> */}
+          </Link>
           <Link
             className="d-flex align-center fs-14 c-black rad-6 p-10" to="settings" id="settings">
             <i className="fa-solid fa-gear fa-fw"></i><span>Settings</span>

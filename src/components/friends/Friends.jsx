@@ -12,7 +12,7 @@ import friend8 from '../../images/friend8.png';
 export default function Friends() {
   return (
     <>
-      <h2 className="p-relative">Friends</h2>
+      {/* <h2 className="p-relative">Friends</h2> */}
       <div className="friends-page d-grid m-20 gap-20">
         <div className="friend p-relative rad-6 bg-white p-20">
           <div className="contact">
@@ -21,7 +21,7 @@ export default function Friends() {
           </div>
           <div className="txt-c mt-20">
             <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend1} alt=""/>
-            <h4 className="m-0">Fouad</h4>
+            <h5 className="m-0">Fouad</h5>
             <p className="c-grey mt-5 mb-0 fs-13">Javascript Developer</p>
           </div>
           <div className="icons fs-14 p-relative">
@@ -58,7 +58,7 @@ export default function Friends() {
           </div>
           <div className="txt-c mt-20">
             <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend2} alt=""/>
-            <h4 className="m-0">Ahmed</h4>
+            <h5 className="m-0">Ahmed</h5>
             <p className="c-grey mt-5 mb-0 fs-13">Full Stack Developer</p>
           </div>
           <div className="icons fs-14 p-relative">
@@ -94,7 +94,7 @@ export default function Friends() {
           </div>
           <div className="txt-c mt-20">
             <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend3} alt=""/>
-            <h4 className="m-0">Mohamed</h4>
+            <h5 className="m-0">Mohamed</h5>
             <p className="c-grey mt-5 mb-0 fs-13">HTML Developer</p>
           </div>
           <div className="icons fs-14 p-relative">
@@ -130,7 +130,7 @@ export default function Friends() {
           </div>
           <div className="txt-c mt-20">
             <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend4} alt=""/>
-            <h4 className="m-0">Kareem</h4>
+            <h5 className="m-0">Kareem</h5>
             <p className="c-grey mt-5 mb-0 fs-13">Css Developer</p>
           </div>
           <div className="icons fs-14 p-relative">
@@ -166,7 +166,7 @@ export default function Friends() {
           </div>
           <div className="txt-c mt-20">
             <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend5} alt=""/>
-            <h4 className="m-0">Hamza</h4>
+            <h5 className="m-0">Hamza</h5>
             <p className="c-grey mt-5 mb-0 fs-13">Python Developer</p>
           </div>
           <div className="icons fs-14 p-relative">
@@ -203,7 +203,7 @@ export default function Friends() {
           </div>
           <div className="txt-c mt-20">
             <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend6} alt=""/>
-            <h4 className="m-0">Faddy</h4>
+            <h5 className="m-0">Faddy</h5>
             <p className="c-grey mt-5 mb-0 fs-13">PHP Developer</p>
           </div>
           <div className="icons fs-14 p-relative">
@@ -239,7 +239,7 @@ export default function Friends() {
           </div>
           <div className="txt-c mt-20">
             <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend7} alt=""/>
-            <h4 className="m-0">Tamer</h4>
+            <h5 className="m-0">Tamer</h5>
             <p className="c-grey mt-5 mb-0 fs-13">Bootstrap Developer</p>
           </div>
           <div className="icons fs-14 p-relative">
@@ -275,7 +275,7 @@ export default function Friends() {
           </div>
           <div className="txt-c mt-20">
             <img className="rad-half mt-10 mb-10 w-100 h-100" src={friend8} alt=""/>
-            <h4 className="m-0">Handy</h4>
+            <h5 className="m-0">Handy</h5>
             <p className="c-grey mt-5 mb-0 fs-13">React Developer</p>
           </div>
           <div className="icons fs-14 p-relative">

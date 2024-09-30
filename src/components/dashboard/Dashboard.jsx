@@ -18,8 +18,7 @@ export default function Dashboard() {
   return (
     <>
       {/* start dashboard */}
-      <h2 className="p-relative">Dashboard</h2>
-      <div className="wrapper d-grid gap-20 mb-20">
+      <div className="wrapper d-grid gap-20 mt-20 mb-20">
         {/* <!-- start welcome --> */}
         <div className="welcome bg-white rad-10 txt-c-mobile block-mobile">
           <div className="intro d-flex space-between bg-eee p-relative">
@@ -47,7 +46,7 @@ export default function Dashboard() {
         </div>
         {/* <!-- start draft --> */}
         <div className="quick-draft p-20 bg-white rad-10">
-          <h2 className="mt-0 mb-10">Quick Draft</h2>
+          <h4 className="mt-0 mb-10">Quick Draft</h4>
           <p className="mt-0 mb-20 c-grey fs-15">Write A Draft To Your Ideas</p>
           <form id="draft">
             <input
@@ -68,7 +67,7 @@ export default function Dashboard() {
         </div>
         {/* <!-- start targets --> */}
         <div className="targets p-20 bg-white rad-10">
-          <h2 className="mt-0 mb-10 ">Targets</h2>
+          <h4 className="mt-0 mb-10 ">Targets</h4>
           <p className="mt-0 mb-20 c-grey fs-15">Your Targets In The Year</p>
           <div className="target-row mb-20 green center-flex ">
             <div className="icons center-flex">
@@ -115,7 +114,7 @@ export default function Dashboard() {
         </div>
         {/* <!-- start tickets --> */}
         <div className="tickets p-20 bg-white rad-10">
-          <h2 className="mt-0 mb-10">Tickets Status</h2>
+          <h4 className="mt-0 mb-10">Tickets Status</h4>
           <p className="c-grey fs-15 mt-0 mb-20">
             Everything About Support Tickets{" "}
           </p>
@@ -144,11 +143,11 @@ export default function Dashboard() {
         </div>
         {/* <!-- start latest news --> */}
         <div className="latest-news p-20 bg-white rad-10 txt-c-mobile">
-          <h2 className="mt-0 mb-20">Latest News</h2>
+          <h4 className="mt-0 mb-20">Latest News</h4>
           <div className="news-row d-flex align-center">
             <img src={news1} alt="" />
             <div className="info">
-              <h3>Created SASS Section</h3>
+              <h4>Created SASS Section</h4>
               <p className="m-0 fs-13 c-grey">New SASS Examples & Tutorials</p>
             </div>
             <div className="label fs-13 bg-eee btn-shape">3 Days Ago</div>
@@ -156,7 +155,7 @@ export default function Dashboard() {
           <div className="news-row d-flex align-center">
             <img src={news2} alt="" />
             <div className="info">
-              <h3>Changed The Design</h3>
+              <h4>Changed The Design</h4>
               <p className="m-0 fs-13 c-grey">A Brand New Website Design</p>
             </div>
             <div className="label fs-13 bg-eee btn-shape">5 Days Ago</div>
@@ -164,7 +163,7 @@ export default function Dashboard() {
           <div className="news-row d-flex align-center">
             <img src={news3} alt="" />
             <div className="info">
-              <h3>Team Increased</h3>
+              <h4>Team Increased</h4>
               <p className="m-0 fs-13 c-grey">3 Developers Join The Team</p>
             </div>
             <div className="fs-13 bg-eee btn-shape">8 Days Ago</div>
@@ -172,7 +171,7 @@ export default function Dashboard() {
           <div className="news-row d-flex align-center">
             <img src={news4} alt="" />
             <div className="info">
-              <h3>Add Payment Gateway</h3>
+              <h4>Add Payment Gateway</h4>
               <p className="m-0 fs-13 c-grey">
                 Many New Payment Gateways Added
               </p>
@@ -182,10 +181,10 @@ export default function Dashboard() {
         </div>
         {/* <!-- start tasks --> */}
         <div className="tasks p-20 bg-white rad-10">
-          <h2 className="mt-0 mb-20">Latest Tasks</h2>
+          <h4 className="mt-0 mb-20">Latest Tasks</h4>
           <div className="task-row between-flex">
             <div className="info">
-              <h3 className="mt-0 mb-5 fs-15">Record One New Video</h3>
+              <h4 className="mt-0 mb-5 fs-15">Record One New Video</h4>
               <p className="m-0 c-grey fs-13">Record Python Create Projects</p>
             </div>
             <i className="fa-solid fa-check mr-15 true"></i>
@@ -193,7 +192,7 @@ export default function Dashboard() {
           </div>
           <div className="task-row between-flex">
             <div className="info">
-              <h3 className="mt-0 mb-5 fs-15">Write Article</h3>
+              <h4 className="mt-0 mb-5 fs-15">Write Article</h4>
               <p className="m-0 c-grey fs-13">
                 Write Low Level VS High Level Lang
               </p>
@@ -203,7 +202,7 @@ export default function Dashboard() {
           </div>
           <div className="task-row between-flex done">
             <div className="info">
-              <h3 className="mt-0 mb-5 fs-15">Finish Projects</h3>
+              <h4 className="mt-0 mb-5 fs-15">Finish Projects</h4>
               <p className="m-0 c-grey fs-13">
                 Publish Academy Programming Projects
               </p>
@@ -213,7 +212,7 @@ export default function Dashboard() {
           </div>
           <div className="task-row between-flex">
             <div className="info">
-              <h3 className="mt-0 mb-5 fs-15">Attend Meetings</h3>
+              <h4 className="mt-0 mb-5 fs-15">Attend Meetings</h4>
               <p className="m-0 c-grey fs-13">
                 Attend The Projects Analysis Meetings
               </p>
@@ -223,7 +222,7 @@ export default function Dashboard() {
           </div>
           <div className="task-row between-flex done">
             <div className="info">
-              <h3 className="mt-0 mb-5 fs-15">Finish Lessons</h3>
+              <h4 className="mt-0 mb-5 fs-15">Finish Lessons</h4>
               <p className="m-0 c-grey fs-13">Record Python Create Projects</p>
             </div>
             <i className="fa-solid fa-check mr-15 true"></i>
@@ -231,7 +230,7 @@ export default function Dashboard() {
           </div>
           <div className="task-row between-flex">
             <div className="info">
-              <h3 className="mt-0 mb-5 fs-15">Learn HTML & CSS</h3>
+              <h4 className="mt-0 mb-5 fs-15">Learn HTML & CSS</h4>
               <p className="m-0 c-grey fs-13">Lessons For Learn HTML % CSS</p>
             </div>
             <i className="fa-solid fa-check mr-15 true"></i>
@@ -240,7 +239,7 @@ export default function Dashboard() {
         </div>
         {/* <!-- start reminder --> */}
         <div className="reminders p-20 bg-white rad-10 p-relative">
-          <h2 className="mt-0 mb-25">Reminders</h2>
+          <h4 className="mt-0 mb-25">Reminders</h4>
           <ul className="m-0">
             <li className="d-flex align-center mt-15">
               <span className="key d-block bg-green rad-half mr-15"></span>
@@ -274,7 +273,7 @@ export default function Dashboard() {
         </div>
         {/* <!-- start social --> */}
         <div className="social-media p-20 bg-white rad-10 p-relative">
-          <h2 className="mt-0 mb-25">Social Media Stats</h2>
+          <h4 className="mt-0 mb-25">Social Media Stats</h4>
           <div className="box facebook p-15 between-flex mb-15 p-relative">
             <i className="fa-brands fa-facebook fa-2x c-white center-flex h-full"></i>
             <span className="fs-13 fw-bold">90K Likes</span>
@@ -307,7 +306,7 @@ export default function Dashboard() {
       </div>
       {/* start projects */}
       <div className="projects p-20 m-20 rad-10 bg-white">
-        <h2 className="mt-0 mb-20">Projects</h2>
+        <h4 className="mt-0 mb-20">Projects</h4>
         <div className="responsive-table">
           <table className="fs-13 w-full">
             <thead>

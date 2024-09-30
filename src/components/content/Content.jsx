@@ -13,14 +13,24 @@ import Settings from "../settings/Settings";
 import CRUD from "../crud/CRUD";
 import Ecommerce from "../e-commerce/Ecommerce";
 import AllProducts from "../crud/crud-products/product-category/AllProducts";
-import Computers from "../crud/crud-products/product-category/Computers";
-import Laptops from "../crud/crud-products/product-category/Laptops";
-import Tablets from "../crud/crud-products/product-category/Tablets";
-import SmartPhone from "../crud/crud-products/product-category/SmartPhone";
-import Accessories from "../crud/crud-products/product-category/Accessories";
+import Clothes from "../crud/crud-products/product-category/Clothes";
+import Electronics from "../crud/crud-products/product-category/Electronics";
+import Shoes from "../crud/crud-products/product-category/Shoes";
+import Furniture from "../crud/crud-products/product-category/Furniture";
+import Miscellaneous from "../crud/crud-products/product-category/Miscellaneous";
 import ProductDetails from "../crud/crud-products/product-handle/ProductDetails";
 import AddProduct from "../crud/crud-products/product-handle/AddProduct";
 import EditProduct from "../crud/crud-products/product-handle/EditProduct";
+import Shop from "../e-commerce/pages/Shop";
+import ShopCategory from "../e-commerce/pages/ShopCategory";
+import Product from "../e-commerce/pages/Product";
+import Cart from "../e-commerce/pages/Cart";
+import men_banner from "../e-commerce/assets/banner_mens.png";
+import women_banner from "../e-commerce/assets/banner_women.png";
+import kids_banner from "../e-commerce/assets/banner_kids.png";
+import SignUp from "../e-commerce/pages/SignUp";
+
+
 
 export default function Content() {
   return (
@@ -53,11 +63,11 @@ export default function Content() {
             <Route path="crud" element={<CRUD />}>
               <Route path="/crud" element={<AllProducts />} />
               <Route path="all-products" element={<AllProducts />} />
-              <Route path="computers" element={<Computers />} />
-              <Route path="laptops" element={<Laptops />} />
-              <Route path="tablets" element={<Tablets />} />
-              <Route path="smart-phone" element={<SmartPhone />} />
-              <Route path="accessories" element={<Accessories />} />
+              <Route path="clothes" element={<Clothes />} />
+              <Route path="electronics" element={<Electronics />} />
+              <Route path="shoes" element={<Shoes />} />
+              <Route path="furniture" element={<Furniture />} />
+              <Route path="miscellaneous" element={<Miscellaneous />} />
               <Route
                 path="/crud/all-products/:productID"
                 element={<ProductDetails />}
@@ -71,7 +81,17 @@ export default function Content() {
                 element={<EditProduct/>}
               />
             </Route>
-            <Route path="e-commerce" element={<Ecommerce />} />
+            <Route path="e-commerce" element={ <Ecommerce /> }>
+              <Route path="/e-commerce" element={<Shop />}/>
+              <Route path="shop" element={<Shop />}/>
+              <Route path="men" element={<ShopCategory category="men" banner={men_banner} />}/>
+              <Route path="woman" element={<ShopCategory category="women" banner={women_banner} />}/>
+              <Route path="kids" element={<ShopCategory category="kid" banner={kids_banner} />}/>
+              <Route path="product" element={<Product />} />
+              <Route path="product/:productId" element={<Product />} />
+              <Route path="cart" element={<Cart />}/>
+              <Route path="signUp" element={<SignUp />}/>
+            </Route>
             <Route path="*" element={<Error />} />
           </Route>
         </Routes>

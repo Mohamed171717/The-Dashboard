@@ -24,14 +24,14 @@ export default function ProductDetails() {
       <>
       <div className='product-details'>
         <div className='product-img'>
-          <img src={product.image} alt='' />
+          <img src={`http://localhost:9000/images/${product.imageFilename}`} alt='' />
         </div>
         <div className='product-info'>
-          <h4> {product.title}.</h4> 
+          <h4>{product.title}.</h4> 
           <h5>{product.category}</h5>
           <p className="c-grey fs-13">{product.description}</p>
           <div className='price-buy'>
-            <h5>{product.price}<sup>$</sup></h5>
+            <h5>${product.price}</h5>
             <button className='btn-shape'>
               Buy Now
             </button>

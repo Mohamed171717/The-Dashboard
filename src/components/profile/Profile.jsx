@@ -8,12 +8,11 @@ import profile from "../../images/profile.jpg";
 export default function Profile() {
   return (
     <>
-      <h2 className="p-relative">Profile</h2>
       <div className="profile-page m-20">
         <div className="overview d-flex align-center bg-white rad-10">
           <div className="avatar-box txt-c p-20">
             <img className="mb-10 rad-half" src={profile} alt="" />
-            <h3 className="mt-0">Fouad</h3>
+            <h4 className="mt-0">Fouad</h4>
             <p className="c-grey mt-10">Level 5</p>
             <div className="level p-relative rad-6 bg-eee">
               <span style={{ width: "70%" }}></span>
@@ -116,7 +115,7 @@ export default function Profile() {
         </div>
         <div className="other-data d-flex gap-20">
           <div className="skills-card p-20 bg-white mt-20 rad-10">
-            <h2 className="mt-0 mb-10">My Skills</h2>
+            <h4 className="mt-0 mb-10">My Skills</h4>
             <p className="mt-0 mb-20 c-grey fs-15">Complete Skills List</p>
             <ul className="m-0 txt-c-mobile">
               <li>
@@ -151,7 +150,7 @@ export default function Profile() {
             </ul>
           </div>
           <div className="activities p-20 bg-white mt-20 rad-10">
-            <h2 className="mt-0 mb-10">My Activities</h2>
+            <h4 className="mt-0 mb-10">My Activities</h4>
             <p className="mt-0 mb-20 c-grey fs-15">
               Latest Activities Done By User
             </p>

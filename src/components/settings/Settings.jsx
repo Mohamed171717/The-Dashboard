@@ -3,11 +3,10 @@ import React from "react";
 export default function Settings() {
   return (
     <>
-      <h2 className="p-relative">Settings</h2>
       <div className="settings-page m-20 d-grid gap-20">
         {/* start setting box */}
         <div className="p-20 bg-white rad-10">
-          <h2 className="mt-0 mb-10">Site Control</h2>
+          <h4 className="mt-0 mb-10">Site Control</h4>
           <p className="mt-0 mb-20 fs-15">
             Control The Website If There Is Maintenance
           </p>
@@ -32,7 +31,7 @@ export default function Settings() {
         </div>
         {/* start setting box2 */}
         <div className="p-20 bg-white rad-10">
-          <h2 className="mt-0 mb-10">General Information</h2>
+          <h4 className="mt-0 mb-10">General Information</h4>
           <p className="mt-0 mb-20 fs-15">General Info About Your Account</p>
           <div className="mb-15">
             <label className="fs-14 d-block mb-10" htmlFor="first">
@@ -74,7 +73,7 @@ export default function Settings() {
         </div>
         {/* start setting box3 */}
         <div className="p-20 bg-white rad-10">
-          <h2 className="mt-0 mb-10">Security Information</h2>
+          <h4 className="mt-0 mb-10">Security Information</h4>
           <p className="mt-0 mb-20 fs-15">
             Security Info About Your Account
           </p>
@@ -112,7 +111,7 @@ export default function Settings() {
         </div>
         {/* start setting box4 */}
         <div className="social-boxes p-20 bg-white rad-10">
-          <h2 className="mt-0 mb-10">Social Information</h2>
+          <h4 className="mt-0 mb-10">Social Information</h4>
           <p className="mt-0 mb-20 fs-15">Social Media Information</p>
           <div className="d-flex align-center mb-15">
             <i className="inst fa-brands fa-square-instagram center-flex"></i>
@@ -149,7 +148,7 @@ export default function Settings() {
         </div>
         {/* start settings box5 */}
         <div className="widget-control p-20 bg-white rad-10">
-          <h2 className="mt-0 mb-10">Widget Control</h2>
+          <h4 className="mt-0 mb-10">Widget Control</h4>
           <p className="mt-0 mb-20 fs-15">Show/Hide Widget</p>
           <div className="control d-flex align-center mb-15">
             <input id="one" type="checkbox" defaultChecked />
@@ -190,7 +189,7 @@ export default function Settings() {
         </div>
         {/* start settings box6 */}
         <div className="backup-control p-20 bg-white rad-10">
-          <h2 className="mt-0 mb-10">Backup Manager</h2>
+          <h4 className="mt-0 mb-10">Backup Manager</h4>
           <p className="mt-0 mb-20 fs-15">
             Control Backup Time And Location
           </p>
